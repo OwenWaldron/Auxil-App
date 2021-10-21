@@ -11,7 +11,7 @@ import SwiftUI
 struct AuxilApp: App {
     var body: some Scene {
         WindowGroup {
-            Text("Hello Tomi")
+            Text("i hate Tomi")
             ContentView()
         }
     }
