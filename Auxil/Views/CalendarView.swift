@@ -10,7 +10,10 @@ import SwiftUI
 struct CalendarView: View {
     var body: some View {
         // TODO Create CalendarView
-        Text("Hello, Calendar!")
+        ZStack {
+            background_light()
+            Text("Hello, Calendar!")
+        }
     }
 }
 

@@ -11,14 +11,21 @@ struct ContentView: View {
     var body: some View {
         TabView {
             CalendarView().tabItem{
-                Image(systemName: "calendar")
-                Text("Calendar View")
+                Icon(icon_root: "calendar", text: "Calendar View")
             }
             DataView().tabItem{
-                Image(systemName: "chart.line.uptrend.xyaxis")
-                Text("Data View")
+                Icon(icon_root: "chart.line.uptrend.xyaxis", text: "Data View")
             }
         }
+    }
+}
+
+struct Icon: View {
+    var icon_root: String
+    var text: String
+    var body: some View {
+        Image(systemName: icon_root).padding(.top)
+        Text(text)
     }
 }
 

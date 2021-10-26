@@ -10,7 +10,10 @@ import SwiftUI
 struct DataView: View {
     var body: some View {
         // TODO DataView
-        Text("Hello, DataView!")
+        ZStack {
+            background_light()
+            Text("Hello, DataView!")
+        }
     }
 }
 

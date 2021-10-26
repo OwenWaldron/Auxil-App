@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05C9CA1A27286D7A0031B0B3 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C9CA1927286D7A0031B0B3 /* Styles.swift */; };
 		05DB0B6D2703A165001C8563 /* AuxilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DB0B6C2703A165001C8563 /* AuxilApp.swift */; };
 		05DB0B6F2703A165001C8563 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DB0B6E2703A165001C8563 /* ContentView.swift */; };
 		05DB0B712703A167001C8563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DB0B702703A167001C8563 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05C9CA1927286D7A0031B0B3 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		05DB0B692703A165001C8563 /* Auxil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auxil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DB0B6C2703A165001C8563 /* AuxilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuxilApp.swift; sourceTree = "<group>"; };
 		05DB0B6E2703A165001C8563 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05C9CA1827286D4D0031B0B3 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				05C9CA1927286D7A0031B0B3 /* Styles.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
 		05DB0B602703A165001C8563 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +84,7 @@
 		05DB0B7A2703A604001C8563 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				05C9CA1827286D4D0031B0B3 /* Style */,
 				05DB0B6E2703A165001C8563 /* ContentView.swift */,
 				05DB0B7B2703A638001C8563 /* CalendarView.swift */,
 				05DB0B7D2703A64E001C8563 /* DataView.swift */,
@@ -152,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05DB0B6F2703A165001C8563 /* ContentView.swift in Sources */,
+				05C9CA1A27286D7A0031B0B3 /* Styles.swift in Sources */,
 				05DB0B6D2703A165001C8563 /* AuxilApp.swift in Sources */,
 				05DB0B7E2703A64E001C8563 /* DataView.swift in Sources */,
 				05DB0B7C2703A638001C8563 /* CalendarView.swift in Sources */,
