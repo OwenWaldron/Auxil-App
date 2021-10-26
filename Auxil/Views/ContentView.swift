@@ -9,8 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        CalendarView()
-            .padding()
+        TabView {
+            CalendarView().tabItem{
+                Image(systemName: "calendar")
+                Text("Calendar View")
+            }
+            DataView().tabItem{
+                Image(systemName: "chart.line.uptrend.xyaxis")
+                Text("Data View")
+            }
+        }
     }
 }
 
