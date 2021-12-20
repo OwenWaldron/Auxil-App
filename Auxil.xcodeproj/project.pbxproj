@@ -16,6 +16,8 @@
 		05DB0B7E2703A64E001C8563 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DB0B7D2703A64E001C8563 /* DataView.swift */; };
 		F06B46A5276FA95E00BF53D3 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B46A4276FA95D00BF53D3 /* DayView.swift */; };
 		F06B46A8276FB38B00BF53D3 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B46A7276FB38A00BF53D3 /* Calendar.swift */; };
+		F06B46AB277017D500BF53D3 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F06B46AA277017D100BF53D3 /* Montserrat-SemiBold.otf */; };
+		F06B46AD277018BC00BF53D3 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F06B46AC277018BC00BF53D3 /* info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		05DB0B7D2703A64E001C8563 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		F06B46A4276FA95D00BF53D3 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
 		F06B46A7276FB38A00BF53D3 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		F06B46AA277017D100BF53D3 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.otf"; path = "../../../../../../../montserrat/Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		F06B46AC277018BC00BF53D3 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		05DB0B602703A165001C8563 = {
 			isa = PBXGroup;
 			children = (
+				F06B46AC277018BC00BF53D3 /* info.plist */,
 				05DB0B6B2703A165001C8563 /* Auxil */,
 				05DB0B6A2703A165001C8563 /* Products */,
 			);
@@ -69,7 +74,7 @@
 		05DB0B6B2703A165001C8563 /* Auxil */ = {
 			isa = PBXGroup;
 			children = (
-				F06B46A6276FB37400BF53D3 /* Extensions */,
+				F06B46A6276FB37400BF53D3 /* Extensions and Extras */,
 				05DB0B7A2703A604001C8563 /* Views */,
 				05DB0B6C2703A165001C8563 /* AuxilApp.swift */,
 				05DB0B702703A167001C8563 /* Assets.xcassets */,
@@ -97,12 +102,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		F06B46A6276FB37400BF53D3 /* Extensions */ = {
+		F06B46A6276FB37400BF53D3 /* Extensions and Extras */ = {
 			isa = PBXGroup;
 			children = (
+				F06B46AA277017D100BF53D3 /* Montserrat-SemiBold.otf */,
 				F06B46A7276FB38A00BF53D3 /* Calendar.swift */,
 			);
-			path = Extensions;
+			path = "Extensions and Extras";
 			sourceTree = "<group>";
 		};
 		F06B46A9276FB3F200BF53D3 /* Calendar Views */ = {
@@ -172,6 +178,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F06B46AD277018BC00BF53D3 /* info.plist in Resources */,
+				F06B46AB277017D500BF53D3 /* Montserrat-SemiBold.otf in Resources */,
 				05DB0B742703A167001C8563 /* Preview Assets.xcassets in Resources */,
 				05DB0B712703A167001C8563 /* Assets.xcassets in Resources */,
 			);

@@ -25,7 +25,7 @@ struct background_light: View {
                 LinearGradient(gradient: Gradient(colors: [gradient_secondary_light, gradient_tertiary_light]), startPoint: UnitPoint(x: 0, y: 0), endPoint: UnitPoint(x: 0, y: 1))
                 let shape = RoundedRectangle(cornerRadius: 25)
                 shape.padding().foregroundColor(.white).frame(height: 115)
-                shape.strokeBorder(lineWidth: 5).padding().frame(height: 115)
+                shape.strokeBorder(lineWidth: 3).padding().frame(height: 115).foregroundColor(Color.blue)
             }
         }.ignoresSafeArea()
         
